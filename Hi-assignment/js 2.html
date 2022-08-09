@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <h1>Sort the Numbers :-</h1>
+    <br/>
+    <p><b>This is the following numbers , and we want to sort :-</b></p>
+    <p id="D1"></p>
+    <br/>
+    <p><u>After sorting :- </u></p>
+    <p id="D2"></p>
+    <script>
+
+        var arr=[5,23,9,7,97,11,88,76,78];
+
+        document.getElementById("D1").innerHTML=arr;
+
+        arr.sort(function(a,b){return a-b});
+        document.getElementById("D2").innerHTML=arr;
+
+
+           
+    </script>
+
+
+</body>
+</html>
